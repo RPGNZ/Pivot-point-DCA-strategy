@@ -1,1 +1,1 @@
-# Pivot-point-DCA-stratgey
+# Pivot-point-DCA-strategy
