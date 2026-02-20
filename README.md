@@ -72,6 +72,7 @@ The following metrics are computed for both strategies:
 - No tax considerations
 - No liquidity constraints
 - Assumes perfect order execution at pivot levels
+
 This is a research / educational backtesting framework, not a production trading engine.
 
 ---
