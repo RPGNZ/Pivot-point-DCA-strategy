@@ -18,8 +18,6 @@ The backtest includes:
 - IRR computation (annualized)  
 - Interactive visualization with Plotly  
 
----
-
 ## Strategy Description
 
 ### 1️⃣ Regular Weekly DCA
