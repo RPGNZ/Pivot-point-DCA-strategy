@@ -29,8 +29,6 @@ The backtest includes:
 
 This strategy serves as the benchmark.
 
----
-
 ### 2️⃣ Pivot-Based Weekly DCA
 
 Each week:
@@ -49,8 +47,6 @@ Each week:
 
 3. Cash not deployed remains available for future weeks.
 
----
-
 ## Performance Metrics
 
 The following metrics are computed for both strategies:
@@ -61,8 +57,6 @@ The following metrics are computed for both strategies:
 - Weekly IRR
 - Annualized IRR (compounded weekly)
 
----
-
 ## Limitations
 
 - No transaction costs
@@ -72,8 +66,6 @@ The following metrics are computed for both strategies:
 - Assumes perfect order execution at pivot levels
 
 This is a research / educational backtesting framework, not a production trading engine.
-
----
 
 ## Disclaimer
 
