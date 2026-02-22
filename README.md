@@ -2,6 +2,9 @@
 
 ## Overview
 
+Background idea is that stocks are often attracted to pivot points. Assuming, the price could eventually go down to pivot levels, they could be more interesting entry points than just DCA periodic open prices.
+
+Bellow chart shows an example where market price hits several times weekly pivot levels.
 
 <img width="939" height="361" alt="NASDAQ_nov25_fev26" src="images/NASDAQ_nov25_fev26.png" />
 
@@ -10,7 +13,7 @@ This project implements and compares two systematic investment strategies:
 1. **Regular Weekly DCA (Dollar-Cost Averaging)**
 2. **Pivot Point–Based Weekly DCA**
 
-The objective is to evaluate whether allocating weekly capital using technical pivot levels (combined with an EMA filter) can improve capital efficiency compared to a standard weekly DCA approach.
+The objective is to evaluate whether allocating weekly capital using technical pivot levels can improve capital efficiency compared to a standard weekly DCA approach.
 
 The backtest includes:
 
