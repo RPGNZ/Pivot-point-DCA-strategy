@@ -3,7 +3,7 @@
 ## Overview
 
 
-<img width="939" height="361" alt="NASDAQ_nov25_fev26" src="https://github.com/user-attachments/assets/8a3bc02a-53b1-4f3c-aa5a-0ba55fce54bd" />
+<img width="939" height="361" alt="NASDAQ_nov25_fev26" src="images/NASDAQ_nov25_fev26.png" />
 
 This project implements and compares two systematic investment strategies:
 
