@@ -53,6 +53,36 @@ Each week:
 
 3. Cash not deployed remains available for future weeks.
 
+## Parameters
+
+Available backtest parameters:
+
+```python
+ticker = "QQQ" # Ticker name
+start_date = "2025-11-04" # Backtest start date
+weekly_budget = 1000  # weekly budget to be invested
+allow_fractional_shares = False # buy fractional shares of the asset
+```
+
+Pivot-point based DCA parameters:
+
+```python
+pivot_DCA_param = {
+    "max_pivots": 2, # Depth of pivot levels to use
+    "ema_filter": True, # Use price to EMA relative position to arbitrate whether to use pivot levels or buy at next week open price
+    "ema_period": 14, # EMA period
+    "pivot_colors": { # for display
+        "S3": "red",
+        "S2": "red",
+        "S1": "orange",
+        "P": "white",
+        "R1": "cyan",
+        "R2": "lime",
+        "R3": "lime",
+        }
+}
+```
+
 ## Performance Metrics
 
 The following metrics are computed for both strategies:
@@ -70,8 +100,6 @@ The following metrics are computed for both strategies:
 - No tax considerations
 - No liquidity constraints
 - Assumes perfect order execution at pivot levels
-
-This is a research / educational backtesting framework, not a production trading engine.
 
 ## Disclaimer
 
