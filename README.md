@@ -89,16 +89,6 @@ pivot_DCA_param = {
 }
 ```
 
-## Performance Metrics
-
-The following metrics are computed for both strategies:
-
-- Total cash invested
-- Final portfolio value
-- Total return (non-annualized)
-- Weekly IRR
-- Annualized IRR (compounded weekly)
-
 ## Limitations
 
 - No transaction costs
