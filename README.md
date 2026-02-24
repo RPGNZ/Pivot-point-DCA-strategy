@@ -140,3 +140,41 @@ QQQ final position: 93.0000
 Remaining cash : 434.02
 ```
 <img width="1045" height="665" alt="QQQ_fev25_fev26_full" src="images/QQQ_fev25_fev26_full.png" />
+
+## S&P 500 backtest
+
+Using following parameters:
+
+```python
+ticker = "SPY" # S&P500
+start_date = "2025-02-24" #"2025-10-26"
+weekly_budget = 1000  # weekly budget to be invested
+allow_fractional_shares = False #pivot_levelsbuy fractional shares of the asset
+
+pivot_DCA_param = {
+    "max_pivots": 2, # Depth of pivot levels to use
+    "ema_filter": True, # Use EMA position to arbitrate the strategy
+    "ema_period": 14, # EMA period
+}
+```
+
+We get following results:
+
+```
+--- Pivot-based DCA ---
+Total cash invested: 52,000
+Final portfolio value: 57,197
+Total return: 9.99%
+Annualized IRR: 20.22%
+SPY final position: 83.0000
+Remaining cash : 135.67
+
+--- DCA ---
+Total cash invested: 52,000
+Final portfolio value: 57,235
+Total return: 10.07%
+Annualized IRR: 20.37%
+SPY final position: 83.0000
+Remaining cash : 173.66
+```
+<img width="1048" height="667" alt="SPY_fev25_fev26_full" src="images/SPY_fev25_fev26_full.png" />
