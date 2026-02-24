@@ -216,3 +216,11 @@ BTC-USD final position: 0.5380
 Remaining cash : 0.00
 ```
 <img width="1059" height="674" alt="BTCUSD_fev25_fev26_full" src="images/BTCUSD_fev25_fev26_full.png" />
+
+## EMA impact on pivot-based DCA strategy
+
+| | | ``` "ema_filter": True ``` | ``` "ema_filter": False ``` |
+| --- | --- | :---: | :---: |
+| QQQ | Final portfolio value:<br>Annualized IRR: | 57,056<br>19.66% | 56,810<br>18,67% |
+| SPY | Final portfolio value:<br>Annualized IRR: | 57,186<br>20,17% | 57,027 <br>19,54% |
+| BTC/USD | Final portfolio value:<br>Annualized IRR: | 34,625<br>-57.59% | 34,520<br>-57.88% |
