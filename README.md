@@ -112,3 +112,42 @@ The following metrics are computed for both strategies:
 This code is provided for educational and informational purposes only.
 It does not constitute investment advice.
 The author assumes no responsibility for financial decisions made based on this project.
+
+## NASDAQ backtest
+
+Using following parameters:
+
+```python
+ticker = "QQQ" # NASDAQ-100
+start_date = "2025-02-24" #"2025-10-26"
+weekly_budget = 1000  # weekly budget to be invested
+allow_fractional_shares = False #pivot_levelsbuy fractional shares of the asset
+
+pivot_DCA_param = {
+    "max_pivots": 2, # Depth of pivot levels to use
+    "ema_filter": True, # Use EMA position to arbitrate the strategy
+    "ema_period": 14, # EMA period
+}
+```
+
+
+```
+=== 📊 Pivot-Based DCA vs DCA ===
+
+--- Pivot-based DCA ---
+Total cash invested: 52,000
+Final portfolio value: 56,992
+Total return: 9.60%
+Annualized IRR: 19.40%
+QQQ final position: 91.0000
+Remaining cash : 1740.30
+
+--- DCA ---
+Total cash invested: 52,000
+Final portfolio value: 56,900
+Total return: 9.42%
+Annualized IRR: 19.03%
+QQQ final position: 93.0000
+Remaining cash : 434.02
+```
+<img width="1061" height="376" alt="NASDAQ_fev25_fev26_full" src="images/NASDAQ_fev25_fev26_full.png" />
