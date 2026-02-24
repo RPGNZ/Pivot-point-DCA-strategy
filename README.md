@@ -178,3 +178,41 @@ SPY final position: 83.0000
 Remaining cash : 173.66
 ```
 <img width="1048" height="667" alt="SPY_fev25_fev26_full" src="images/SPY_fev25_fev26_full.png" />
+
+## BTC/USD backtest
+
+Using following parameters:
+
+```python
+ticker = "BTC-USD"
+start_date = "2025-02-24" #"2025-10-26"
+weekly_budget = 1000  # weekly budget to be invested
+allow_fractional_shares = True # buy fractional shares of the asset
+
+pivot_DCA_param = {
+    "max_pivots": 2, # Depth of pivot levels to use
+    "ema_filter": True, # Use EMA position to arbitrate the strategy
+    "ema_period": 14, # EMA period
+}
+```
+
+We get following results:
+
+```
+--- Pivot-based DCA ---
+Total cash invested: 52,000
+Final portfolio value: 34,910
+Total return: -32.86%
+Annualized IRR: -56.79%
+BTC-USD final position: 0.5419
+Remaining cash : 0.00
+
+--- DCA ---
+Total cash invested: 52,000
+Final portfolio value: 34,661
+Total return: -33.34%
+Annualized IRR: -57.49%
+BTC-USD final position: 0.5380
+Remaining cash : 0.00
+```
+<img width="1059" height="674" alt="BTCUSD_fev25_fev26_full" src="images/BTCUSD_fev25_fev26_full.png" />
