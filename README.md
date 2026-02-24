@@ -130,10 +130,9 @@ pivot_DCA_param = {
 }
 ```
 
+We get following results:
 
 ```
-=== 📊 Pivot-Based DCA vs DCA ===
-
 --- Pivot-based DCA ---
 Total cash invested: 52,000
 Final portfolio value: 56,992
@@ -150,4 +149,4 @@ Annualized IRR: 19.03%
 QQQ final position: 93.0000
 Remaining cash : 434.02
 ```
-<img width="1061" height="376" alt="NASDAQ_fev25_fev26_full" src="images/NASDAQ_fev25_fev26_full.png" />
+<img width="1045" height="665" alt="NASDAQ_fev25_fev26_full" src="images/NASDAQ_fev25_fev26_full.png" />
