@@ -57,7 +57,7 @@ In following chart, we can see entry point on NASDAQ where orders are :
 - executed at pivot points while market is bearish
 - executed at open price while market is bullish
 
-<img width="1061" height="376" alt="NASDAQ_fev25_fev26" src="images/NASDAQ_fev25_fev26.png" />
+<img width="1061" height="376" alt="QQQ_fev25_fev26" src="images/NASDAQ_fev25_fev26.png" />
 
 ## Parameters
 
@@ -139,4 +139,4 @@ Annualized IRR: 19.03%
 QQQ final position: 93.0000
 Remaining cash : 434.02
 ```
-<img width="1045" height="665" alt="NASDAQ_fev25_fev26_full" src="images/NASDAQ_fev25_fev26_full.png" />
+<img width="1045" height="665" alt="QQQ_fev25_fev26_full" src="images/QQQ_fev25_fev26_full.png" />
