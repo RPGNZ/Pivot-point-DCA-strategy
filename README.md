@@ -6,7 +6,7 @@ Background idea is that stocks are often attracted to pivot points. Assuming, th
 
 Bellow chart shows an example where market price hits several times weekly pivot levels.
 
-<img width="939" height="361" alt="NASDAQ_nov25_fev26" src="images/NASDAQ_nov25_fev26.png" />
+<img alt="NASDAQ_nov25_fev26" src="images/NASDAQ_nov25_fev26.png" />
 
 This project implements and compares two systematic investment strategies:
 
