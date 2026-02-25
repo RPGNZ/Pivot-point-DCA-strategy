@@ -57,7 +57,7 @@ In following chart, we can see entry point on NASDAQ where orders are :
 - executed at pivot points while market is bearish
 - executed at open price while market is bullish
 
-<img alt="QQQ_fev25_fev26" src="images/QQQ_fev25_fev26.png" />
+<img alt="QQQ_fev25_fev26" src="images/QQQ_fev25_fev26_full.png" />
 
 ## Parameters
 
