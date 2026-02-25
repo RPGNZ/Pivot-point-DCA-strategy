@@ -139,7 +139,7 @@ Annualized IRR: 19.03%
 QQQ final position: 93.0000
 Remaining cash : 434.02
 ```
-<img width="1045" height="665" alt="QQQ_fev25_fev26_full" src="images/QQQ_fev25_fev26_full.png" />
+<img alt="QQQ_fev25_fev26_full" src="images/QQQ_fev25_fev26_full.png" />
 
 ## S&P 500 backtest
 
@@ -177,7 +177,7 @@ Annualized IRR: 20.37%
 SPY final position: 83.0000
 Remaining cash : 173.66
 ```
-<img width="1048" height="667" alt="SPY_fev25_fev26_full" src="images/SPY_fev25_fev26_full.png" />
+<img alt="SPY_fev25_fev26_full" src="images/SPY_fev25_fev26_full.png" />
 
 ## BTC/USD backtest
 
@@ -215,7 +215,7 @@ Annualized IRR: -57.49%
 BTC-USD final position: 0.5380
 Remaining cash : 0.00
 ```
-<img width="1059" height="674" alt="BTCUSD_fev25_fev26_full" src="images/BTCUSD_fev25_fev26_full.png" />
+<img alt="BTCUSD_fev25_fev26_full" src="images/BTCUSD_fev25_fev26_full.png" />
 
 ## EMA impact on pivot-based DCA strategy
 
