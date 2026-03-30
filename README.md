@@ -111,7 +111,7 @@ Using following parameters:
 ticker = "QQQ" # NASDAQ-100
 start_date = "2025-02-24" #"2025-10-26"
 weekly_budget = 1000  # weekly budget to be invested
-allow_fractional_shares = False #pivot_levelsbuy fractional shares of the asset
+allow_fractional_shares = False # buy fractional shares of the asset
 
 pivot_DCA_param = {
     "max_pivots": 2, # Depth of pivot levels to use
@@ -149,7 +149,7 @@ Using following parameters:
 ticker = "SPY" # S&P500
 start_date = "2025-02-24" #"2025-10-26"
 weekly_budget = 1000  # weekly budget to be invested
-allow_fractional_shares = False #pivot_levelsbuy fractional shares of the asset
+allow_fractional_shares = False # buy fractional shares of the asset
 
 pivot_DCA_param = {
     "max_pivots": 2, # Depth of pivot levels to use
